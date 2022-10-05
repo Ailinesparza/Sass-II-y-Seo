@@ -1,0 +1,144 @@
+@use 'mixins';
+
+@media (max-width: 575px) {
+    .plyr  {
+        padding-right:2rem;
+        padding-left:2rem;
+    }    
+        }
+    
+    @media (max-width: 379px) {
+        
+    .col-md-6 {
+            margin: 0 auto
+        }
+        
+    span {
+     text-align: center       
+        } 
+        
+    .logo_footer {
+       display: none     
+        }
+        
+    }
+ 
+@media (width: 280px) {
+    
+    .row {
+      @include mixins.margen-alto(80%);    
+    }
+    
+    .btn {
+      margin-bottom: 25%    
+    }
+    
+main > .container-fluid {
+    padding: 107px 0px 0;
+}
+    
+.rowfaq {
+    @include mixins.margen-alto(65%); 
+}  
+    
+}
+
+@media (min-width: 820px) {
+
+.cover-container {
+  max-width: 42rem;
+    }
+            
+}
+
+@media (max-width: 819px) {
+
+.cover-container {
+  padding-right: 15%;
+  padding-left: 15%   
+    }     
+}
+ 
+@media (width: 540px) {
+
+    .row {
+      @include mixins.margen-alto(30%);   
+    }
+    
+    .btn {
+        @include mixins.margen-alto(15%);   
+    }
+    
+.rowfaq {
+    @include mixins.margen-alto(35%);
+}
+    
+}
+
+@media (width: 375px) {
+
+    .row {
+        @include mixins.margen-alto(40%);    
+    }
+    
+    .btn {
+      margin-bottom: 15%    
+    }
+    
+.rowfaq {
+    @include mixins.margen-alto(35%);
+} 
+    
+}
+
+@media (width: 360px) {
+ 
+.rowfaq {
+    @include mixins.margen-alto(35%);
+} 
+    
+}
+
+@media (width: 390px) {
+
+.rowfaq {
+    @include mixins.margen-alto(20%);
+}
+    
+}
+
+@media (width: 393px) {
+
+.rowfaq {
+    @include mixins.margen-alto(20%);
+}
+    
+}
+
+@media (width: 360px) {
+
+    .row {
+        @include mixins.margen-alto(40%);    
+    }
+    
+    .btn {
+      margin-bottom: 15%    
+    }
+    
+}
+
+@media (min-width: 1024px) {
+
+    .row {
+        @include mixins.margen-alto(15%);    
+    }
+    
+    .btn {
+      margin-bottom: 15%    
+    }
+    
+.rowfaq {
+    @include mixins.margen-alto(15%);
+}
+    
+}

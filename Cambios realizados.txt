@@ -1,0 +1,27 @@
+Cambios realizados:
+
+Borre la hoja de estilos.css anterior que solo se duplico con el sass. Agregue partials y un mixin
+de margin en todas las @medias que vi repetidas.
+
+Agregue en las 5 paginas keywords y descriptions:
+
+Index:
+<meta name="description" content="Ropa y accesorios para bebés y niños">
+<meta name="keywords" content="bodys, ajuares, sonajeros, mantas de apego, baberos, babitas">
+Le agregue al h1 y al parrafo del video un texto
+
+Productos:
+<meta name="description" content="Productos diseñados pensando en la comodidad de tu bebé">
+<meta name="keywords" content="bodys, ajuares, sonajeros, mantas de apego, baberos, babitas">
+
+Faq:
+<meta name="description" content="Preguntas frecuentes de nuestros usuarios">
+<meta name="keywords" content="bodys, ajuares, sonajeros, mantas de apego, baberos, babitas">
+
+Contacto:
+<meta name="description" content="Dejanos un mensaje y contanos sobre vos">
+<meta name="keywords" content="bodys, ajuares, sonajeros, mantas de apego, baberos, babitas">
+
+Empresa:
+<meta name="keywords" content="Conocé mas acerca de nosotros">
+<meta name="keywords" content="bodys, ajuares, sonajeros, mantas de apego, baberos, babitas">

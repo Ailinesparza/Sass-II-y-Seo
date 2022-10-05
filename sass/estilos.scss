@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+@use 'header';
+@use 'navbar';
+@use 'variables';
+@use 'media';
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.bi {
+    font-size: 24px;
+}
+
+:root {
+    --bs-body-bg: #FFF5E9;
+    --bs-light-rgb: 207, 238, 249;
+}
+
+
+main > .container-fluid {
+    padding: 67px 0px 0;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0rem;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.card-header {
+    color: variables.$color_celeste;
+    background-color: rgb(255 249 196 / 100%);
+}
+
+.btn-outline-primary {
+  --bs-btn-hover-bg: variables.$color_rosa;
+  --bs-btn-hover-border-color: variables.$color_celeste_claro;
+  --bs-btn-color: variables.$color_rosa;
+  --bs-btn-border-color: variables.$color_celeste_claro;
+}
+
+.btn-primary {
+    --bs-btn-color: variables.$color_blanco;
+    --bs-btn-bg: variables.$color_celeste;
+    --bs-btn-hover-bg: #FFBB58;
+    --bs-btn-border-color: variables.$color_celeste_claro;
+    --bs-btn-hover-border-color: #FFDAA5;
+}
+
+.color-blanco {
+    background-color: variables.$color_blanco
+}
+
+.navbar-toggler {
+  background-color: variables.$color_blanco;
+  border: var(--bs-border-width) solid variables.$color_celeste_claro;
+}
+
+
+.container-fluid .color-blanco {
+margin-top: auto
+    }
+
+.rowfaq {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-right: auto;
+    margin-left: auto;
+}

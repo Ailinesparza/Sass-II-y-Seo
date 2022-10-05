@@ -1,0 +1,44 @@
+.navbar-collapse {
+    flex-grow: inherit
+}
+
+.navbar {
+--bs-navbar-hover-color: #33BFE7;
+--bs-navbar-padding-x: 2rem;
+}
+
+@media (max-width: 280px) {
+
+    .navbar {
+ --bs-navbar-brand-margin-end: 0rem;
+    }
+    
+    .navbar-brand {
+        margin: 0 auto
+    }
+    
+    .navbar-toggler {
+        margin: 0 auto
+    }
+            
+}
+
+@media (max-width: 414px) {
+
+    .navbar {
+ --bs-navbar-brand-margin-end: 0rem;
+    }
+    
+    .navbar-brand {
+        margin: 0 auto
+    }
+    
+    .navbar-toggler {
+        margin: 0 auto
+    }
+    
+    .row {
+      margin-top: 35%    
+    } 
+      
+}
